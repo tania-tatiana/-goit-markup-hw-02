@@ -2,7 +2,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 /* #endregion */
 /* #region Header */
@@ -18,6 +18,8 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .dark {
   color: #2e2f42;
@@ -26,6 +28,12 @@ body {
 }
 .navigation-item {
 }
+.navigation-studio {
+}
+.navigation-portfolio {
+}
+.navigation-contacts {
+}
 .navigation-studio,
 .navigation-portfolio,
 .navigation-contacts {
@@ -33,6 +41,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: inherit;
+  letter-spacing: 0.02em;
 }
 .navigation-studio:hover,
 .navigation-portfolio:hover,
@@ -44,10 +53,17 @@ body {
 }
 
 .address {
+  font-style: normal;
 }
 .address-list {
 }
 .address-item {
+}
+.address-mail {
+  letter-spacing: 0.02em;
+}
+.address-tel {
+  letter-spacing: 0.02em;
 }
 .address-mail,
 .address-tel {
@@ -73,6 +89,8 @@ body {
   line-height: 1.07;
   color: #fff;
   text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   font-family: inherit;
@@ -82,6 +100,7 @@ body {
   line-height: 1.5;
   color: #fff;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -103,11 +122,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .features-text {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 /* #endregion */
 /* #region Team */
@@ -120,6 +141,8 @@ body {
   line-height: 1.11;
   color: #2e2f42;
   text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .team-list {
 }
@@ -133,11 +156,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 /* #endregion */
 /* #region Portfolio */
@@ -149,6 +174,8 @@ body {
   line-height: 1.11;
   color: #2e2f42;
   text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .portfolio-list {
 }
@@ -162,11 +189,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 /* #endregion */
 /* #region Footer */
