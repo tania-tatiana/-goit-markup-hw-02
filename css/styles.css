@@ -28,27 +28,15 @@ body {
 }
 .navigation-item {
 }
-.navigation-studio {
-}
-.navigation-portfolio {
-}
-.navigation-contacts {
-}
-.navigation-studio,
-.navigation-portfolio,
-.navigation-contacts {
+.navigation-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-.navigation-studio:hover,
-.navigation-portfolio:hover,
-.navigation-contacts:hover,
-.navigation-studio:focus,
-.navigation-portfolio:focus,
-.navigation-contacts:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: #404bbf;
 }
 
