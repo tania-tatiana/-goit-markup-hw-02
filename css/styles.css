@@ -40,7 +40,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: inherit;
+  color: #2e2f42;
   letter-spacing: 0.02em;
 }
 .navigation-studio:hover,
@@ -60,16 +60,15 @@ body {
 .address-item {
 }
 .address-mail {
-  letter-spacing: 0.02em;
 }
 .address-tel {
-  letter-spacing: 0.02em;
 }
 .address-mail,
 .address-tel {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 .address-mail:hover,
 .address-tel:hover,
@@ -211,5 +210,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 /* #endregion */
