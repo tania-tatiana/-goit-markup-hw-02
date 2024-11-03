@@ -1,3 +1,11 @@
+/* #region Base */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #2e2f42;
+}
+/* #endregion */
+/* #region Header */
 .header {
 }
 .navigation {
@@ -5,33 +13,83 @@
 .header-logo {
 }
 .logo {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
 }
 .dark {
+  color: #2e2f42;
+}
+.navigation-list {
 }
 .navigation-item {
 }
-.navigation-studio {
-}
-.navigation-portfolio {
-}
+.navigation-studio,
+.navigation-portfolio,
 .navigation-contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: inherit;
 }
+.navigation-studio:hover,
+.navigation-portfolio:hover,
+.navigation-contacts:hover,
+.navigation-studio:focus,
+.navigation-portfolio:focus,
+.navigation-contacts:focus {
+  color: #404bbf;
+}
+
 .address {
 }
 .address-list {
 }
 .address-item {
 }
-.address-mail {
-}
+.address-mail,
 .address-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
+.address-mail:hover,
+.address-tel:hover,
+.address-mail:focus,
+.address-tel:focus {
+  color: #404bbf;
+}
+
+/* #endregion */
+/* #region HeroScreen */
 .hero {
+  background-color: #2e2f42;
 }
 .hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #fff;
+  text-transform: capitalize;
 }
 .hero-button {
+  font-family: inherit;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  cursor: pointer;
 }
+.hero-button:hover,
+.hero-button:focus {
+  background: #404bbf;
+}
+
+/* #endregion */
+/* #region Features */
 .features {
 }
 .features-title {
@@ -41,40 +99,88 @@
 .features-item {
 }
 .features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 .features-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
+/* #endregion */
+/* #region Team */
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-img {
 }
 .team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 .team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
+/* #endregion */
+/* #region Portfolio */
 .portfolio {
 }
 .portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
 .portfolio-item {
+  background-color: #e7e9fc;
 }
 .portfolio-img {
 }
 .portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 .portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
+/* #endregion */
+/* #region Footer */
 .footer {
+  background-color: #2e2f42;
 }
 .footer-logo {
 }
-.footer-text {
+.light {
+  color: #f4f4fd;
 }
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+}
+/* #endregion */
