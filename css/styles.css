@@ -4,8 +4,24 @@ body {
   background-color: #fff;
   color: #434455;
 }
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 /* #endregion */
 /* #region Header */
+.address-contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+.address-contacts:hover,
+.address-contacts:focus {
+  color: #404bbf;
+}
 .header {
 }
 .navigation {
@@ -35,11 +51,6 @@ body {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-.navigation-link:hover,
-.navigation-link:focus {
-  color: #404bbf;
-}
-
 .address {
   font-style: normal;
 }
@@ -49,17 +60,10 @@ body {
 }
 .address-contacts {
 }
-.address-contacts {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-  letter-spacing: 0.02em;
-}
-.address-contacts:hover,
-.address-contacts:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: #404bbf;
 }
-
 /* #endregion */
 /* #region HeroScreen */
 .hero {
@@ -88,7 +92,6 @@ body {
 .hero-button:focus {
   background: #404bbf;
 }
-
 /* #endregion */
 /* #region Features */
 .features {
@@ -162,7 +165,7 @@ body {
 .portfolio-list {
 }
 .portfolio-item {
-  background-color: #e7e9fc;
+  background-color: #fff;
 }
 .portfolio-img {
 }
